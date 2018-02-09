@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="@dimen/content_width"
+        android:layout_height="@dimen/content_height"
+        android:layout_centerInParent="true"
+        android:background="@drawable/form_bg">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_top_height"
+            android:background="@drawable/form_top"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/title_text_padding"
+            android:text="@string/hello_bonjour_hallo"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/content_padding">
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/title_margin"
+                    android:text="@string/textview"
+                    android:textColor="@color/black" />
+                <CheckBox
+                    android:id="@+id/cbContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check_box_item1" />
+                <CheckBox
+                    android:id="@+id/cbJob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check_box_item2" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <CheckBox
+                        android:id="@+id/cbHello"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/check_box_item3" />
+                    <Spinner
+                        android:id="@+id/spEmployees"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <CheckBox
+                    android:id="@+id/cbOther"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check_box_item4" />
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/title_margin"
+                    android:layout_marginTop="@dimen/content_padding"
+                    android:text="@string/your_personal_data"
+                    android:textColor="#000" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/btnCamera"
+                        android:layout_width="@dimen/button_camera_size"
+                        android:layout_height="@dimen/button_camera_size"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/camera_btn" />
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/take_a_picture_of_your_business_card" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+                    <EditText
+                        android:id="@+id/edtFirstName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/content_padding"
+                        android:layout_weight="1"
+                        android:hint="@string/first_name"
+                        android:inputType="textPersonName" />
+                    <EditText
+                        android:id="@+id/edtCompany"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/content_padding"
+                        android:layout_weight="1"
+                        android:hint="@string/company"
+                        android:inputType="textPersonName" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+                    <EditText
+                        android:id="@+id/edtLastName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/content_padding"
+                        android:layout_weight="1"
+                        android:hint="@string/last_name"
+                        android:inputType="textPersonName" />
+                    <EditText
+                        android:id="@+id/edtPosition"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/content_padding"
+                        android:layout_weight="1"
+                        android:hint="@string/position"
+                        android:inputType="textPersonName" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+                    <EditText
+                        android:id="@+id/edtEmailAddress"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/content_padding"
+                        android:layout_weight="1"
+                        android:hint="@string/email_address"
+                        android:inputType="textPersonName" />
+                    <EditText
+                        android:id="@+id/edtBranch"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/content_padding"
+                        android:layout_weight="1"
+                        android:hint="@string/branch"
+                        android:inputType="textPersonName" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/title_margin"
+                    android:layout_marginTop="@dimen/content_padding"
+                    android:text="@string/comments_notes"
+                    android:textColor="@color/black" />
+                <EditText
+                    android:id="@+id/edtComments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+        </ScrollView>
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="@dimen/button_sen_width"
+            android:layout_height="@dimen/button_send_height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/form_send_inactive"
+            android:drawableRight="@drawable/right32"
+            android:gravity="right|center_vertical"
+            android:paddingRight="@dimen/button_send_padding"
+            android:text="@string/send"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size" />
+    </RelativeLayout>
+</RelativeLayout>

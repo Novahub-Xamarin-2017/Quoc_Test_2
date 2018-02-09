@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="content_width">750dp</dimen>
+  <dimen name="content_height">400dp</dimen>
+  <dimen name="content_padding">20dp</dimen>
+  <dimen name="image_padding">10dp</dimen>
+  <dimen name="sroty_width">250dp</dimen>
+  <dimen name="title_size">20sp</dimen>
+  <dimen name="title_margin">10dp</dimen>
+  <dimen name="button_camera_size">35dp</dimen>
+  <dimen name="button_sen_width">100dp</dimen>
+  <dimen name="button_send_height">75dp</dimen>
+  <dimen name="button_send_padding">10dp</dimen>
+  <dimen name="title_top_height">100dp</dimen>
+  <dimen name="title_text_padding">30dp</dimen>
+</resources>
