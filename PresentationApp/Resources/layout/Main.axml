@@ -17,7 +17,7 @@
         android:layout_alignParentBottom="true"
         android:background="@color/colorBackground"
         app:elevation="16dp"
-      app:itemIconTint="@drawable/nav_item_colors"
-      app:itemTextColor="@drawable/nav_item_colors"
+        app:itemIconTint="@drawable/nav_item_colors"
+        app:itemTextColor="@drawable/nav_item_colors"
         app:menu="@menu/bottom_navigation_main" />
 </RelativeLayout>

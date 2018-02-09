@@ -23,11 +23,11 @@ namespace PresentationApp.Views
             SetContentView(Resource.Layout.Main);
 
             bottomNavigation = FindViewById<BottomNavigationView>(Resource.Id.bottom_navigation);
+            LoadFragment(Resource.Id.menu_company);
             bottomNavigation.NavigationItemSelected += (sender, e) =>
             {
                 LoadFragment(e.Item.ItemId);
             };
-            LoadFragment(Resource.Id.menu_company);
         }
 
         private void LoadFragment(int id)
