@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Test2</string>
+    <string name="check_box_item1">I\'d like to be contacted to discuss a potential difital project</string>
+    <string name="check_box_item2">I\'m looking for a job/ master thesis</string>
+    <string name="check_box_item4">Other reason</string>
+    <string name="check_box_item3">I just wanted to say \"hi\" to&#032;&#032;&#032;</string>
+    <string name="textview">PLEASE TELL US HOW WE CAN HELP YOU *</string>
+    <string name="your_personal_data">YOUR PERSONAL DATA</string>
+    <string name="take_a_picture_of_your_business_card">Take a picture of your business card</string>
+    <string name="first_name">First name *</string>
+    <string name="company">Company</string>
+    <string name="last_name">Last name *</string>
+    <string name="position">Position</string>
+    <string name="email_address">Email Address *</string>
+    <string name="branch">Branch</string>
+    <string name="comments_notes">COMMENTS/ NOTES</string>
+    <string name="hello_bonjour_hallo">Hello, Bonjour, Hallo</string>
+    <string name="send">Send</string>
+    <string name="tab1_title">Open Web Technology</string>
+    <string name="tab2_title">Sucess stories</string>
+    <string name="tab3_title">Contact</string>
+</resources>
